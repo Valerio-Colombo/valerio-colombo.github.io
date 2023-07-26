@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Antartica project</title>
+    <link rel="stylesheet" href="styles_flex.css">
+</head>
+
+<body>
+    <div>
+        <div class="info-column">
+            <div class="description light-text title_data">Arnombo Secret Society (ASS)</div>
+            <div class="flex-container-description">
+                <button class="mission-button title" onclick="openTab(event, 'mission_1')">Mission 1: Antartica</button>
+                <button class="mission-button title" onclick="openTab(event, 'mission_2')">Mission 2: Genesis</button>
+            </div>
+        </div>
+        <div class="data-column">
+            <div id="mission_0" class="mission-content description normal-text light-text">
+                <p class="title_data">Welcome agent 777,</p>
+                <!-- <p class="title_data">Code Name Dinosaurino</p>-->
+                <p class="title_data">Select a mission</p> 
+            </div>
+            <div id="mission_1" class="mission-content description normal-text light-text">
+                <p class="title_data">Mission 1: Antartica</p>
+                <p>Last night an S.O.S. was launched from a research station in Antarctica, we don't know anything about what they were doing down there, but it seems it was dangerous and something went wrong. Your job is to find out what happened</p>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/1FBRs2AV6Mo" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div id="mission_2" class="mission-content description normal-text light-text">
+                <p class="title_data">Mission 2: Genesis</p>
+                <p>Word has reached us that a show with lasers, video mapping and other dangerous contraptions is being organised in Milan. Go and investigate</p>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/kc6ZwQH2iog" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="tabs.js"></script>
+</body>
+
+</html>

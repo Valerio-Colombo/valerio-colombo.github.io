@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>Antartica project</title>
+    <link rel="stylesheet" href="styles_flex.css">
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="info-column">
+            <div class="description light-text title_data">Arnombo Secret Society (ASS)</div>
+            <div class="flex-container-description">
+                <p class="description title_data light-text">Welcome back</p>
+                <canvas id="myCanvas" width="578" height="50"></canvas>
+                <script src="line.js"></script>
+                <p class="description normal-text light-text">Everyone at ASS works towards a common goal.<br />Safety.<br />For
+                    ASS is paramount to guarantee the maximum level of security in every aspect of the company,
+                    including the agent identification procedure</p>
+            </div>
+        </div>
+        <div class="data-column">
+            <p class="description title_data light-text">Agent identification page</p>
+            <div class="container">
+                <div class="card" id="login-card">
+                    <form action="javascript:checkCredentials()">
+                        <input type="text" placeholder="Agent Number" id="agentNumber">
+                        <input type="password" placeholder="PIN" id="pin">
+                        <div class="buttons">
+                            <button type="submit" class="login-button" >Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
