@@ -9,7 +9,7 @@ function checkCredentials() {
 
     // Check if the entered credentials match the valid credentials
     if (enteredAgentNumber === validAgentNumber && enteredPin === validPin) {
-        window.location.href = "board.html";
+        window.location.href = "/board.html";
     } else {
         var login_card = document.getElementById("login-card");
         login_card.classList.add("border-transition-fail");
